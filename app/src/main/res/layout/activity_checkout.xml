@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.directoryx.projectuasmob.CheckoutActivity">
+
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/total1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:text="Total : "/>
+
+
+    <TextView
+        android:id="@+id/total"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:text=""/>
+
+
+    <TextView
+        android:id="@+id/bayar"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:text="Bayar "/>
+
+    <EditText
+
+        android:id="@+id/edbayar"
+        android:padding="20dp"
+        android:maxLines="1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/kembali"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:text="Kembalian : 20000"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnBaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayar"/>
+
+</LinearLayout>

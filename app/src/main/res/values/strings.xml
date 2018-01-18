@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProjectUASMob</string>
+    <string name="title_activity_dashboard_kasir">DashboardKasir</string>
+    <string name="title_activity_dashboard_admin">DashboardGudang</string>
+    <string name="title_activity_manajemen_gudang">ManajemenGudang</string>
+</resources>
